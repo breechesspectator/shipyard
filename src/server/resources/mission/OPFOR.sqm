@@ -47,7 +47,6 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="ark_co238_opfor";
 		overviewText="opfor";
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
