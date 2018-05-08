@@ -7,7 +7,7 @@ export var PATH = {
         WORKING_DIR: 'workingDir'
     },
     Hull3: {
-        CLONE_URL: 'https://github.com/kami-/hull3.git',
+        CLONE_URL: 'https://github.com/breechesspectator/hull3.git',
         HOME: 'hull3',
         SAMPLE_MISSION_HOME: 'hull3.Altis',
         FACTION: 'hull3/factions.h',
@@ -15,7 +15,7 @@ export var PATH = {
         UNIFORM_HOME: 'hull3/assign/uniform'
     },
     Admiral: {
-        CLONE_URL: 'https://github.com/kami-/admiral.git',
+        CLONE_URL: 'https://github.com/breechesspectator/admiral.git',
         HOME: 'admiral',
         SAMPLE_MISSION_HOME: 'admiral.Altis'
     },
@@ -23,7 +23,7 @@ export var PATH = {
         HOME: 'plank'
     },
     ArkInhouse: {
-        CLONE_URL: 'https://github.com/Cyruz143/ark_inhouse.git',
+        CLONE_URL: 'https://github.com/breechesspectator/ark_inhouse.git',
         HOME: 'ark_inhouse/addons',
     },
     SERVER_RESOURCES_HOME: 'resources/server',
