@@ -181,7 +181,7 @@ export function generateMission(mission: Mission): GeneratedMission {
 
     var maxPlayers = getPlayableUnitCount(missionAst);
     var missionId = nextMissionId();
-    var fullMissionName = `ark_${missionTypeToMissionNamePrefix(missionType)}${maxPlayers}_${mission.briefingName.toLowerCase()}`;
+    var fullMissionName = `bs_${missionTypeToMissionNamePrefix(missionType)}${maxPlayers}_${mission.briefingName.toLowerCase()}`;
     var missionDirName = `${fullMissionName}.${mission.terrainId}`;
     var missionWorkingDir = `${Settings.PATH.Mission.WORKING_DIR}/${missionId}`;
     var missionDir = `${missionWorkingDir}/${missionDirName}`;

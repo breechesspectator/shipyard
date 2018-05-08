@@ -103,7 +103,7 @@ export function generateMission(terrainId: string): Mission.GeneratedMission {
     var missionSqmPath = `${generatedMission.missionDir}/mission.sqm`;
     var missionAst = updateMissionSqm(missionSqmPath);
     var maxPlayers = Mission.getPlayableUnitCount(missionAst);
-    var fullMissionName = `ark_${Mission.missionTypeToMissionNamePrefix(Mission.stringToMissionType(mission.missionTypeName))}${maxPlayers}_${mission.briefingName.toLowerCase()}`;
+    var fullMissionName = `bs_${Mission.missionTypeToMissionNamePrefix(Mission.stringToMissionType(mission.missionTypeName))}${maxPlayers}_${mission.briefingName.toLowerCase()}`;
     updateDescriptionExt(`${generatedMission.missionDir}/description.ext`, maxPlayers);
 
     generatedMission.downloadMissionName = `${fullMissionName}.${mission.terrainId}`;
